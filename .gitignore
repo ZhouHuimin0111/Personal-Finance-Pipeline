@@ -1,0 +1,13 @@
+# 忽略所有真实的账单数据文件
+*.csv
+*.xlsx
+!data/sample_alipay.csv
+
+# 忽略输出文件夹中的所有生成结果
+output/
+
+# 忽略 Python 缓存和 PyCharm 配置文件
+__pycache__/
+*.pyc
+.idea/
+.venv/
