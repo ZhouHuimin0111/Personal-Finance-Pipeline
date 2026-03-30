@@ -1,4 +1,4 @@
-# Personal Finance Data Pipeline (个人财务数据流水线)
+# Personal Finance Data Pipeline 
 
 基于 Python 开发的个人账单自动化处理与分析工具。支持一键提取、清洗并合并支付宝与微信支付导出的账单明细，最终输出标准化的数据透视表和可视化分析图表。
 
@@ -10,9 +10,8 @@
 - **动态可视化**: 结合 `matplotlib` 一键生成月度支出结构饼图与柱状图。
 - **隐私隔离**: 采用 `.gitignore` 严格屏蔽真实交易数据上传，保障个人隐私安全。
 
-## 目录结构 (Directory Structure)
+## 目录结构 
 
-```text
 Bill_Processing/
 ├── data/               # 存放原始账单 (alipay.csv / wechat.xlsx) - 被 Git 忽略
 ├── output/             # 存放自动清洗后的标准化账单及可视化结果 - 被 Git 忽略
