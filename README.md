@@ -11,7 +11,7 @@
 - **隐私隔离**: 采用 `.gitignore` 严格屏蔽真实交易数据上传，保障个人隐私安全。
 
 ## 目录结构 
-
+```text
 Bill_Processing/
 ├── data/               # 存放原始账单 (alipay.csv / wechat.xlsx) - 被 Git 忽略
 ├── output/             # 存放自动清洗后的标准化账单及可视化结果 - 被 Git 忽略
@@ -20,7 +20,7 @@ Bill_Processing/
 │   └── analyze.py      # 数据可视化分析脚本
 ├── requirements.txt    # Python 依赖清单
 └── .gitignore          # 隐私保护配置
-
+```
 ## 月度记账标准操作流程 (SOP)
 
 为保证财务数据的连贯性，建议每月初执行以下流程：
